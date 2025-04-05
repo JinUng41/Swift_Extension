@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */; };
 		DE68A5222D9F50BF008669E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A5182D9F50BF008669E5 /* AppDelegate.swift */; };
 		DE68A5232D9F50BF008669E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A51F2D9F50BF008669E5 /* SceneDelegate.swift */; };
 		DE68A5242D9F50BF008669E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A5202D9F50BF008669E5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedString.swift; sourceTree = "<group>"; };
 		DE68A5002D9F50A6008669E5 /* Swift_Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE68A5182D9F50BF008669E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE68A5192D9F50BF008669E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE28F4F82DA11F760026D48F /* Date+ */ = {
+			isa = PBXGroup;
+			children = (
+				DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */,
+			);
+			path = "Date+";
+			sourceTree = "<group>";
+		};
 		DE68A4F72D9F50A6008669E5 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 				DE68A51A2D9F50BF008669E5 /* Info.plist */,
 				DE68A51C2D9F50BF008669E5 /* LaunchScreen.storyboard */,
 				DE68A5202D9F50BF008669E5 /* ViewController.swift */,
+				DE28F4F82DA11F760026D48F /* Date+ */,
 				DE68A5292D9F517F008669E5 /* String+ */,
 			);
 			path = Swift_Extension;
@@ -151,6 +162,7 @@
 				DE68A52B2D9F51A2008669E5 /* Truncated.swift in Sources */,
 				DE68A5222D9F50BF008669E5 /* AppDelegate.swift in Sources */,
 				DE68A5232D9F50BF008669E5 /* SceneDelegate.swift in Sources */,
+				DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */,
 				DE68A5242D9F50BF008669E5 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
