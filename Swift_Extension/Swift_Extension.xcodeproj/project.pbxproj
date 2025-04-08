@@ -15,6 +15,7 @@
 		DE68A5252D9F50BF008669E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE68A5192D9F50BF008669E5 /* Assets.xcassets */; };
 		DE68A5272D9F50BF008669E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE68A51C2D9F50BF008669E5 /* LaunchScreen.storyboard */; };
 		DE68A52B2D9F51A2008669E5 /* Truncated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A52A2D9F51A2008669E5 /* Truncated.swift */; };
+		DEA5DAE62DA4EA8900E74156 /* Addsubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA5DAE52DA4EA8900E74156 /* Addsubviews.swift */; };
 		DEA6C8D92DA40940003AC1D3 /* BackgroundInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6C8D82DA40940003AC1D3 /* BackgroundInitializer.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		DE68A51F2D9F50BF008669E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE68A5202D9F50BF008669E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE68A52A2D9F51A2008669E5 /* Truncated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Truncated.swift; sourceTree = "<group>"; };
+		DEA5DAE52DA4EA8900E74156 /* Addsubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addsubviews.swift; sourceTree = "<group>"; };
 		DEA6C8D82DA40940003AC1D3 /* BackgroundInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundInitializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				DEA6C8D82DA40940003AC1D3 /* BackgroundInitializer.swift */,
+				DEA5DAE52DA4EA8900E74156 /* Addsubviews.swift */,
 			);
 			path = "UIView+";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				DEA6C8D92DA40940003AC1D3 /* BackgroundInitializer.swift in Sources */,
 				DE68A5232D9F50BF008669E5 /* SceneDelegate.swift in Sources */,
 				DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */,
+				DEA5DAE62DA4EA8900E74156 /* Addsubviews.swift in Sources */,
 				DE42533D2DA2BF5500AE2E0A /* ReuseIdentifiable.swift in Sources */,
 				DE68A5242D9F50BF008669E5 /* ViewController.swift in Sources */,
 			);
