@@ -7,8 +7,7 @@
 
 import UIKit
 
-extension UIView {
-    
+extension UIView {    
     /// 배경색을 설정하는 편의 생성자입니다.
     ///
     /// - Parameter backgroundColor: 설정할 배경색
