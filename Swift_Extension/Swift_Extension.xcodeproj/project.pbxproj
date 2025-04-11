@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */; };
 		DE42533D2DA2BF5500AE2E0A /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42533C2DA2BF5500AE2E0A /* ReuseIdentifiable.swift */; };
+		DE4A932C2DA9745A0061B91A /* AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A932B2DA9745A0061B91A /* AddArrangedSubviews.swift */; };
 		DE68A5222D9F50BF008669E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A5182D9F50BF008669E5 /* AppDelegate.swift */; };
 		DE68A5232D9F50BF008669E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A51F2D9F50BF008669E5 /* SceneDelegate.swift */; };
 		DE68A5242D9F50BF008669E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68A5202D9F50BF008669E5 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedString.swift; sourceTree = "<group>"; };
 		DE42533C2DA2BF5500AE2E0A /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		DE4A932B2DA9745A0061B91A /* AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArrangedSubviews.swift; sourceTree = "<group>"; };
 		DE68A5002D9F50A6008669E5 /* Swift_Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE68A5182D9F50BF008669E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE68A5192D9F50BF008669E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF1483A2DA7B48E003B2AD8 /* AxisInitializer.swift */,
+				DE4A932B2DA9745A0061B91A /* AddArrangedSubviews.swift */,
 			);
 			path = "UIStackView+";
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				DE68A5222D9F50BF008669E5 /* AppDelegate.swift in Sources */,
 				DEA6C8D92DA40940003AC1D3 /* BackgroundInitializer.swift in Sources */,
 				DE68A5232D9F50BF008669E5 /* SceneDelegate.swift in Sources */,
+				DE4A932C2DA9745A0061B91A /* AddArrangedSubviews.swift in Sources */,
 				DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */,
 				DEA5DAE62DA4EA8900E74156 /* AddSubviews.swift in Sources */,
 				DE42533D2DA2BF5500AE2E0A /* ReuseIdentifiable.swift in Sources */,
