@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2039FE2DADE16F00706079 /* HexStringInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2039FD2DADE16F00706079 /* HexStringInitializer.swift */; };
 		DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */; };
 		DE42533D2DA2BF5500AE2E0A /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE42533C2DA2BF5500AE2E0A /* ReuseIdentifiable.swift */; };
 		DE4A932C2DA9745A0061B91A /* AddArrangedSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A932B2DA9745A0061B91A /* AddArrangedSubviews.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE2039FD2DADE16F00706079 /* HexStringInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexStringInitializer.swift; sourceTree = "<group>"; };
 		DE28F4F92DA11F8A0026D48F /* ElapsedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedString.swift; sourceTree = "<group>"; };
 		DE42533C2DA2BF5500AE2E0A /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
 		DE4A932B2DA9745A0061B91A /* AddArrangedSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddArrangedSubviews.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE2039FC2DADE16400706079 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				DE2039FD2DADE16F00706079 /* HexStringInitializer.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		DE28F4F82DA11F760026D48F /* Date+ */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 				DE68A5292D9F517F008669E5 /* String+ */,
 				DEA6C8D72DA40930003AC1D3 /* UIView+ */,
 				DEF148392DA7B475003B2AD8 /* UIStackView+ */,
+				DE2039FC2DADE16400706079 /* UIColor */,
 			);
 			path = Swift_Extension;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 				DE28F4FA2DA11F8A0026D48F /* ElapsedString.swift in Sources */,
 				DEA5DAE62DA4EA8900E74156 /* AddSubviews.swift in Sources */,
 				DE42533D2DA2BF5500AE2E0A /* ReuseIdentifiable.swift in Sources */,
+				DE2039FE2DADE16F00706079 /* HexStringInitializer.swift in Sources */,
 				DE68A5242D9F50BF008669E5 /* ViewController.swift in Sources */,
 				DEAD01342DA6B25F00613460 /* RoundCorners.swift in Sources */,
 			);
