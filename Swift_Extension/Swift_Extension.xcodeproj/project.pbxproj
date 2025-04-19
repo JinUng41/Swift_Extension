@@ -53,12 +53,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE2039FC2DADE16400706079 /* UIColor */ = {
+		DE2039FC2DADE16400706079 /* UIColor+ */ = {
 			isa = PBXGroup;
 			children = (
 				DE2039FD2DADE16F00706079 /* HexStringInitializer.swift */,
 			);
-			path = UIColor;
+			path = "UIColor+";
 			sourceTree = "<group>";
 		};
 		DE28F4F82DA11F760026D48F /* Date+ */ = {
@@ -107,7 +107,7 @@
 				DE68A5292D9F517F008669E5 /* String+ */,
 				DEA6C8D72DA40930003AC1D3 /* UIView+ */,
 				DEF148392DA7B475003B2AD8 /* UIStackView+ */,
-				DE2039FC2DADE16400706079 /* UIColor */,
+				DE2039FC2DADE16400706079 /* UIColor+ */,
 			);
 			path = Swift_Extension;
 			sourceTree = "<group>";
